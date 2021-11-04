@@ -56,7 +56,6 @@ class Block extends React.Component {
     };
     axios
       .post("http://localhost:3001/updatecomment", commentToPost)
-
       .catch((error) => {
         console.error("There was an error!", error);
       });
